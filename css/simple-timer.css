@@ -1,0 +1,27 @@
+body {
+  width: 100%;
+  background-color: rgb(252, 247, 197);
+}
+
+.title {
+  padding-top: 8%;
+  padding-left: 30%;
+  font-size: 4em;
+}
+
+.hourBox {
+  padding-left: 40%;
+}
+
+.hourBox-title {
+  font-size: 3em;
+}
+
+.hourBox-alarmTime {
+  font-size: 1.5em;
+}
+
+.hourBox-alarms {
+  font-size: 1.5em;
+  padding-top
+}
