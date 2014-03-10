@@ -8,8 +8,8 @@ var seconds = Bacon.interval(1000, 'tick')
 var minutes = seconds
   .changes()
   .filter(isOClock)
-  .scan(0, function(minutes) {
-    return minutes == 59 ? 0 : (minutes + 1);
+  .scan(0, function(seconds) {
+    return seconds == 59 ? 0 : (seconds + 1);
   })
   .map(toTwoDigitsString);
 
