@@ -12,13 +12,13 @@
     <div class="hourBox">
       <h3 class="hourBox-title"><span id="hour">00</span> : <span id="minutes">00</span> : <span id="seconds">00</span></h3>
 
-      <label class="hourBox-alarmTime">Set an alarm:</label> <input id="alarmTime" type="text" /> <button id="setAlarm">Ok</button><br/>
+      <label class="hourBox-alarmText">Set an alarm:</label> <input id="alarmTime" class="hourBox-alarmTime" type="text" /> <button class="hourBox-button" id="setAlarm">Ok</button><br/>
 
-      <div class="hourBox-alarms">
-        <label>Your alarms:</label> <ul id="currentAlarm"></ul>
-      </div>
-      <script type="application/javascript" src="js/util.js"></script>
-      <script type="application/javascript" src="js/simple-timer.js"></script>
     </div>
+    <div class="alarmBox">
+      <label>Your alarms:</label> <ul id="currentAlarm"></ul>
+    </div>
+    <script type="application/javascript" src="js/util.js"></script>
+    <script type="application/javascript" src="js/simple-timer.js"></script>
   </body>
 </html>
