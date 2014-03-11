@@ -9,7 +9,7 @@ var minutes = seconds
   .changes()
   .filter(isOClock)
   .scan(0, function(minutes) {
-    return minutess == 59 ? 0 : (minutess + 1);
+    return minutes == 59 ? 0 : (minutes + 1);
   })
   .map(toTwoDigitsString);
 
