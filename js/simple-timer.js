@@ -21,7 +21,7 @@ var hours = minutes
   })
   .map(toTwoDigitsString);
 
-// Build full hour from the 3 properties
+// Build full hour from the 3 streams
 var fullHour = hours.map(Array)
   .combine(minutes.map(Array), '.concat')
   .combine(seconds.map(Array), '.concat')
