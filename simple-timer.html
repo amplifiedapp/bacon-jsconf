@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <script type="application/javascript" src="js/vendor/jquery-1.11.0.js"></script>
     <script type="application/javascript" src="js/vendor/bacon.js"></script>
-    <link rel="stylesheet" media="all" href="css/simple-timer.css">
+    <link rel="stylesheet" media="all" href="css/base.css">
   </head>
   <body>
     <h1 class="title">The Reactive Timer!</h1>
-    <div class="hourBox">
-      <h3 class="hourBox-title"><span id="hour">00</span> : <span id="minutes">00</span> : <span id="seconds">00</span></h3>
+    <div class="contentBox">
+      <h3 class="contentBox-title"><span id="hour">00</span> : <span id="minutes">00</span> : <span id="seconds">00</span></h3>
 
-      <label class="hourBox-alarmText">Set an alarm:</label> <input id="alarmTime" class="hourBox-alarmTime" type="text" placeholder="00:00:00"/> <button class="hourBox-button" id="setAlarm">Ok</button><br/>
+      <label class="contentBox-labelText">Set an alarm:</label> <input id="alarmTime" class="contentBox-inputText" type="text" placeholder="00:00:00"/> <button class="contentBox-button" id="setAlarm">Ok</button><br/>
 
     </div>
-    <div class="alarmBox">
+    <div class="resultBox">
       <label>Your alarms:</label> <ul id="currentAlarm"></ul>
     </div>
     <script type="application/javascript" src="js/util.js"></script>

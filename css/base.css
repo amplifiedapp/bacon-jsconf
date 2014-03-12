@@ -9,19 +9,24 @@ body {
   font-size: 4em;
 }
 
-.hourBox {
-  padding-left: 40%;
+.contentBox {
+  padding-left: 31%;
 }
 
-.hourBox-title {
+.contentBox-title {
   font-size: 3em;
+  padding-left: 13%;
 }
 
-.hourBox-alarmText {
-  font-size: 1.5em;
+.contentBox-labelText {
+  font-size: 1.4em;
 }
 
-.hourBox-button {
+.contentBox-inputText {
+  font-size: 1.4em;
+}
+
+.contentBox-button {
   font-size: 14px;
   color: #fff;
   text-shadow: 0 -1 0 rgba(0,0,0,0.25);
@@ -39,14 +44,15 @@ body {
   border: 1px solid #cccccc;
 }
 
-.hourBox-alarmTime {
+.contentBox-alarmTime {
   line-height: 22px;
   min-width: 167px;
 }
 
-.alarmBox {
+.resultBox {
   font-size: 1.5em;
   padding-top: 3%;
   padding-left: 31%;
+  padding-right: 10%;
 }
 

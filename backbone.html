@@ -7,13 +7,18 @@
     <script type="application/javascript" src="js/vendor/bacon.js"></script>
     <script type="application/javascript" src="js/vendor/underscore.js"></script>
     <script type="application/javascript" src="js/vendor/backbone.js"></script>
+    <link rel="stylesheet" media="all" href="css/base.css">
   </head>
   <body>
-    <h1>Reactive Backbone</h1>
-    Filter <input id="filter" type="text" />
-    Found <span id="resultsCount"></span> items.
-    <ul id="list">
-    </ul>
+    <h1 class="title">Reactive Backbone</h1>
+    <div class="contentBox">
+      Filter <input id="filter" type="text" class="contentBox-inputText"/>
+      Found <span id="resultsCount"></span> items.
+    </div>
+    <div class="resultBox">
+      <ul id="list">
+      </ul>
+    </div>
     <script type="application/javascript" src="js/bb-util.js"></script>
     <script type="application/javascript" src="js/backbone.js"></script>
   </body>
